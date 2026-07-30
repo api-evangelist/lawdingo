@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.lawdingo.com/.well-known/*
+host: https://www.lawdingo.com
+result: none
+note: >-
+  No .well-known documents are published. The lawdingo.com and www.lawdingo.com domains both serve
+  an unpublished Framer site ("Site Not Found") and return HTTP 404 for every path probed, so there
+  is no discovery surface to harvest. Recorded as negative evidence for future re-runs; no
+  WellKnown or SecurityTxt pointer is wired into apis.yml because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
