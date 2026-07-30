@@ -1,24 +1,65 @@
 aid: lawdingo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lawdingo.png
 name: Lawdingo
-description: Lawdingo is a company surfaced as a portfolio company of a16z, y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Lawdingo is a New York City legal-technology company founded in 2012 by Nikhil Nirmel
+  and Dan Langevin, and a Y Combinator Winter 2013 alum backed by Andreessen Horowitz, General
+  Catalyst and AltaIR Capital. It launched as a consumer marketplace for talking to a lawyer on
+  demand, then pivoted to serving law firms and corporate legal departments with remote paralegals
+  and contract attorneys — legal research, litigation drafting, court filing and discovery support —
+  delivered through an online platform where clients assign work, share documents, deposit funds and
+  track hours. Lawdingo publishes no public API, developer portal or SDKs, and as of this enrichment
+  pass its lawdingo.com and www.lawdingo.com domains both return HTTP 404 "Site Not Found" from an
+  unpublished Framer site, leaving no live web surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/lawdingo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 - y-combinator
+- general-catalyst
+- altair-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-status: website-offline
+x-status-checked: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Legal
+- Legal Tech
+- Legal Services
+- Paralegal
+- Marketplace
+- Professional Services
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lawdingo-domain-security.yml
+- type: Website
+  url: https://www.lawdingo.com/
+- type: GitHubOrganization
+  url: https://github.com/Lawdingo
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
