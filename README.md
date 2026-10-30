@@ -64,26 +64,47 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lawdingo is a New York City legal-technology company founded in 2012 by Nikhil Nirmel and Dan
-Langevin, and a Y Combinator Winter 2013 alum backed by Andreessen Horowitz, General Catalyst and
-AltaIR Capital. It launched as a consumer marketplace for talking to a lawyer on demand, then
-pivoted to serving law firms and corporate legal departments with remote paralegals and contract
-attorneys — legal research, litigation drafting, court filing and discovery support — delivered
-through an online platform where clients assign work, share documents, deposit funds and track
-hours.
+> **No live API surface.** Nothing from this company could be reached the last time it was checked: the site is offline, parked or unreachable, or no public API was found. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: a16z, Y Combinator, General Catalyst, AltaIR Capital
+**Status:** website-offline
 
-## Enrichment status
+Lawdingo is a New York City legal-technology company founded in 2012 by Nikhil Nirmel and Dan Langevin, and a Y Combinator Winter 2013 alum backed by Andreessen Horowitz, General Catalyst and AltaIR Capital. It launched as a consumer marketplace for talking to a lawyer on demand, then pivoted to serving law firms and corporate legal departments with remote paralegals and contract attorneys — legal research, litigation drafting, court filing and discovery support — delivered through an online platform where clients assign work, share documents, deposit funds and track hours. Lawdingo publishes no public API, developer portal or SDKs, and as of this enrichment pass its lawdingo.com and www.lawdingo.com domains both return HTTP 404 "Site Not Found" from an unpublished Framer site, leaving no live web surface to harvest.
 
-As of 2026-07-19 Lawdingo publishes **no public API surface**: no developer portal, documentation,
-OpenAPI, SDKs, packages, MCP server, or `.well-known` documents. Both `lawdingo.com` and
-`www.lawdingo.com` resolve to an unpublished Framer site and return HTTP 404 "Site Not Found" for
-every path probed, so there is nothing to harvest and no spec to derive artifacts from.
+**Areas:** Company · Legal · Legal Tech · Legal Services · Paralegal · Marketplace · Professional Services · Y Combinator
 
-What is real and captured here:
+## Lawdingo on APIs.io (historical record)
 
-- `security/lawdingo-domain-security.yml` — live TLS/DNS probe of the registered domain.
-- `well-known/lawdingo-well-known.yml` — negative evidence (all `.well-known` paths 404).
-- `https://github.com/Lawdingo` — the company GitHub organization (2 public repos, both forks of
-  third-party projects; no first-party SDK).
+Everything profiled for Lawdingo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lawdingo/](https://apis.io/providers/lawdingo/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lawdingo Domain Security](https://apis.io/security/lawdingo/lawdingo-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lawdingo.com/)
+- [GitHub](https://github.com/Lawdingo)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no live api surface, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lawdingo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lawdingo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
